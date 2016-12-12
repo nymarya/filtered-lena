@@ -8,18 +8,18 @@
 
 int main(){
     
-	int line, column;
+    int line, column;
     char type[2];
     FILE *image = fopen("../lena.txt", "r");
     fscanf(image, "%s", type);
     fscanf(image, "%i %i", &column, &line);
     fclose(image);
 
-	Pixel matrix[line][column];
+    Pixel matrix[line][column];
 
-	getImage(line, column, matrix);
+    getImage(line, column, matrix);
 
-	return 0;
+    return 0;
 }
 
 
