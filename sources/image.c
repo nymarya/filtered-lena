@@ -18,7 +18,7 @@ void getImage(int lin, int col, Pixel matrix[lin][col]){
     
     int line, column, quality;
     char type[2];
-    FILE *image = fopen("../lena.txt", "r");
+    FILE *image = fopen("../gallery/lena.txt", "r");
     
     fscanf(image, "%s", type);
     fscanf(image, "%i %i", &column, &line);
