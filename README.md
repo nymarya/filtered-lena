@@ -8,4 +8,5 @@ Lena standard image with multiple filters using convolution matrix.
 
 | #       | Description           | Command  |
 | :------------- |:-------------| :-----|
-| 1      | Build and run | `cd ${current.project.path} && gcc main.c image.c filters.c -o lena&& ./lena` |
+| 1      | Build | ```$ gcc main.c image.c filters.c -o lena``` |
+| 2      | Run   | ```$ ./lena``` |
