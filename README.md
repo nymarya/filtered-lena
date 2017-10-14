@@ -1,6 +1,6 @@
 # filtered-lena
 
-#About
+# About
 
 Lena standard image with multiple filters using convolution matrix. 
 
